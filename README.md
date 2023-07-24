@@ -1,0 +1,2 @@
+# insight_view
+尝试追踪pytorch程序运行的流程，获取过程中阶段的关系图与每个步骤的FLOPS
