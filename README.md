@@ -4,7 +4,7 @@
 
 调用方式 
 
-···python 
+'''python 
 flops, macs, params = get_model_profile(model=model, # model
                                     # input_shape=(1,1), # input shape to the model. If specified, the model takes a tensor with this shape as the only positional argument.
                                     args=(x, max_new_tokens, temperature, top_k), # list of positional arguments to the model.
@@ -20,4 +20,4 @@ flops, macs, params = get_model_profile(model=model, # model
                                     mode='generate') # the list of modules to ignore in the profiling
 
 
-···
+'''
